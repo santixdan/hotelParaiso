@@ -83,16 +83,6 @@
         </q-card>
     </div>
     <hr>
-    <div class="q-pa-md">
-        <q-parallax :height="500" :speed="1">
-            <template v-slot:media>
-                <img src="https://cdn.quasar.dev/img/parallax1.jpg">
-            </template>
-
-            <h1 class="text-white">Docks</h1>
-            <p class="text-white2">En el Hotel Paraíso, cada momento está diseñado para ser inolvidable. <br> Ya sea que nos visites para experimentar la emoción de los deportes extremos o para disfrutar de un entorno natural impresionante, <br> nuestro equipo dedicado está comprometido a brindarte una estancia extraordinaria que supere todas tus expectativas.</p>
-        </q-parallax>
-    </div>
 </template>
 <script setup>
 import { ref } from "vue";
@@ -131,14 +121,5 @@ let lorem1 = ref("")
 
 #servicios {
     margin: 1%;
-}
-
-.text-white{
-    color: black !important;
-}
-.text-white2{
-    color: white !important;
-    font-weight: bold;
-    font-size: 130%;
 }
 </style>

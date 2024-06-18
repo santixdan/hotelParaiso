@@ -1,7 +1,17 @@
 <template>
-    <h3 id="habitaciones">NUESTRAS HABITACIONES</h3>
-    <p id="txtHabitaciones">Descubre las diversas opciones de alojamiento que el Hotel Paraíso tiene para
+    <div class="q-pa-md">
+        <q-parallax :height="500" :speed="1">
+            <template v-slot:media>
+                <img src="https://cdn.quasar.dev/img/parallax1.jpg">
+            </template>
+
+            <h1 class="text-white">NUESTRAS HABITACIONES</h1>
+            <p class="text-white2">Descubre las diversas opciones de alojamiento que el Hotel Paraíso tiene para
         ofrecer.<br>Cada una diseñada para proporcionar el máximo confort y lujo durante tu estancia.</p>
+        </q-parallax>
+    </div>
+    <h3 id="habitaciones"></h3>
+    <p id="txtHabitaciones"></p>
     <hr>
     <div class="q-pa-md row items-start q-gutter-md">
         <q-card class="my-card" flat bordered>
@@ -83,7 +93,7 @@
             <q-card-section horizontal>
                 <q-img class="col-5" src="https://cdn.quasar.dev/img/parallax2.jpg" />
                 <q-card-section>
-                    <h4>Suites Presidenciales</h4>
+                    <h4>Suit<br>Presidencial</h4>
                     <h6>Descripción</h6>
                     <p>Las Suites Presidenciales ofrecen la máxima experiencia de lujo y exclusividad. Con espacios
                         generosos, vistas panorámicas incomparables y servicios personalizados, estas suites son ideales
@@ -227,5 +237,13 @@ function onReset() {
 
 #btnModal {
     color: greenyellow !important;
+}
+.text-white{
+    color: black !important;
+}
+.text-white2{
+    color: white !important;
+    font-weight: bold;
+    font-size: 130%;
 }
 </style>
