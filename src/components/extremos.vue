@@ -91,6 +91,7 @@ import { ref } from 'vue'
 </script>
 
 <style>
+
 #activity {
     margin-bottom: 2em;
     display: flex;

@@ -220,6 +220,7 @@ function onReset() {
 }
 </script>
 <style>
+
 .my-card {
     width: 100%;
     /* max-width: 350px; */
@@ -236,6 +237,7 @@ function onReset() {
 }
 
 #btnModal {
+    font-size: 100%;
     color: greenyellow !important;
 }
 .text-white{
@@ -259,5 +261,15 @@ function onReset() {
 #cards{
     display: flex;
     justify-content: center;
+}
+@media screen and (max-width:500px) and (min-width:300px){
+    .text-white{
+        text-align: left;
+        font-size: 210%;
+    }
+    .text-white2{
+        font-size: 110%;
+        text-align: left;
+    }
 }
 </style>

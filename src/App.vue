@@ -43,8 +43,13 @@ import { ref } from "vue";
   font-family: fuenteTitulo;
   src: url("./fuentes/go3v2.ttf");
 }
+@font-face {
+  font-family: fuenteSegunda;
+  src: url("./fuentes/ReadytoParty.ttf");
+}
 
 * {
+  font-family: fuenteSegunda;
   margin: 0%;
 }
 

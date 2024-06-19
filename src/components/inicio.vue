@@ -92,6 +92,7 @@ let autoplay = ref(true)
 let lorem1 = ref("")
 </script>
 <style>
+
 .my-card1 {
     width: 100%;
     max-width: 1000px;
