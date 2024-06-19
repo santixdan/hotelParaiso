@@ -2,7 +2,7 @@
     <div class="q-pa-md">
         <q-parallax :height="500" :speed="1">
             <template v-slot:media>
-                <img src="https://cdn.quasar.dev/img/parallax1.jpg">
+                <img src="https://png.pngtree.com/background/20231030/original/pngtree-contemporary-3d-rendering-of-a-stylish-bedroom-in-a-modern-condominium-picture-image_5799708.jpg">
             </template>
 
             <h1 class="text-white">NUESTRAS HABITACIONES</h1>
@@ -13,7 +13,7 @@
     <h3 id="habitaciones"></h3>
     <p id="txtHabitaciones"></p>
     <hr>
-    <div class="q-pa-md row items-start q-gutter-md">
+    <div class="q-pa-md row items-start q-gutter-md" id="cards">
         <q-card class="my-card" flat bordered>
             <q-card-section horizontal>
                 <q-card-section>
@@ -35,14 +35,14 @@
                     <q-btn label="Reservar" color="black" id="btnModal" @click="icon = true" />
                 </q-card-section>
 
-                <q-img class="col-5" src="https://cdn.quasar.dev/img/parallax2.jpg" />
+                <q-img class="col-5" src="https://www.hotelvaldorba.com/wp-content/uploads/2014/11/Habitacion-de-Hotel-rural-Valdorba-en-Navarra-1920x1080.jpg" />
             </q-card-section>
         </q-card>
         <q-card class="my-card" flat bordered>
             <q-card-section horizontal>
-                <q-img class="col-5" src="https://cdn.quasar.dev/img/parallax2.jpg" />
+                <q-img class="col-5" src="https://hotelhaciendadecortes.com.mx/theme/img/slide/jr/lightbox/1.jpg" />
                 <q-card-section>
-                    <h4>Suites Junior</h4>
+                    <h4>Suite Junior</h4>
                     <h6>Descripción</h6>
                     <p>Las Suites Junior ofrecen un espacio adicional para relajarse, con una zona de estar separada y
                         vistas panorámicas al océano o a las montañas. Ideales para parejas o viajeros que buscan un
@@ -66,7 +66,7 @@
         <q-card class="my-card" flat bordered>
             <q-card-section horizontal>
                 <q-card-section>
-                    <h4>Suites de Lujo</h4>
+                    <h4>Suite de Lujo</h4>
                     <h6>Descripción</h6>
                     <p>Nuestras Suites de Lujo son el epítome del confort y la elegancia, con amplios espacios de estar
                         y vistas impresionantes al océano. Perfectas para huéspedes que buscan una experiencia de
@@ -86,14 +86,14 @@
                     <q-btn label="Reservar" color="black" id="btnModal" @click="icon = true" />
                 </q-card-section>
 
-                <q-img class="col-5" src="https://cdn.quasar.dev/img/parallax2.jpg" />
+                <q-img class="col-5" src="https://images.mirai.com/HOST/500255/room-24672.jpg" />
             </q-card-section>
         </q-card>
         <q-card class="my-card" flat bordered>
             <q-card-section horizontal>
-                <q-img class="col-5" src="https://cdn.quasar.dev/img/parallax2.jpg" />
+                <q-img class="col-5" src="https://st3.idealista.com/news/archivos/styles/fullwidth_xl/public/2018-08/suite-princesse-grace-3.jpg?VersionId=4GORgqRZX0hbzXsr3j7zn8Dn580DRqLn&itok=hoDo8M8x" />
                 <q-card-section>
-                    <h4>Suit<br>Presidencial</h4>
+                    <h4>Suite<br>Presidencial</h4>
                     <h6>Descripción</h6>
                     <p>Las Suites Presidenciales ofrecen la máxima experiencia de lujo y exclusividad. Con espacios
                         generosos, vistas panorámicas incomparables y servicios personalizados, estas suites son ideales
@@ -239,11 +239,25 @@ function onReset() {
     color: greenyellow !important;
 }
 .text-white{
-    color: black !important;
+    color: white !important;
+    text-shadow: 
+    -2px -1px 0 #000000,  
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
 }
 .text-white2{
     color: white !important;
     font-weight: bold;
     font-size: 130%;
+    text-shadow: 
+    -2px -1px 0 #000000,  
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+}
+#cards{
+    display: flex;
+    justify-content: center;
 }
 </style>

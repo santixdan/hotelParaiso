@@ -3,10 +3,10 @@
         <q-carousel animated v-model="slide" navigation infinite :autoplay="autoplay" arrows
             transition-prev="slide-right" transition-next="slide-left" @mouseenter="autoplay = false"
             @mouseleave="autoplay = true">
-            <q-carousel-slide :name="1" img-src="https://cdn.quasar.dev/img/mountains.jpg" />
-            <q-carousel-slide :name="2" img-src="https://cdn.quasar.dev/img/parallax1.jpg" />
-            <q-carousel-slide :name="3" img-src="https://cdn.quasar.dev/img/parallax2.jpg" />
-            <q-carousel-slide :name="4" img-src="https://cdn.quasar.dev/img/quasar.jpg" />
+            <q-carousel-slide :name="1" img-src="https://hips.hearstapps.com/hmg-prod/images/parilio-s-01-rrr-jpg-1652718352.jpg" />
+            <q-carousel-slide :name="2" img-src="https://vivaspapoblado.com/wp-content/uploads/2020/12/spa-en-pareja-2.jpg" />
+            <q-carousel-slide :name="3" img-src="https://1.bp.blogspot.com/-ulmsddiK1hA/XgcFhkrSA0I/AAAAAAAADNU/Sygdg0Wd5wgUZTyoZYimy4bb4ZHSWCqYACEwYBhgL/s1600/Regalo%2BVuelo%2BParapente%2BParejas.png" />
+            <q-carousel-slide :name="4" img-src="https://www.viajes-carrefour.com/blog/wp-content/uploads/2018/02/recepcion-hotel-lujo.jpg" />
         </q-carousel>
     </div>
     <div class="q-pa-md row items-start q-gutter-md" id="tagInfo">
@@ -18,7 +18,7 @@
                     Desde deportes extremos hasta momentos de relajación, ofrecemos una experiencia completa que combina
                     lujo, confort y aventura.
                 </q-card-section>
-                <q-img class="col-5" src="https://cdn.quasar.dev/img/parallax2.jpg" />
+                <q-img class="col-5" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/04/d8/13/exterior.jpg?w=1200&h=-1&s=1" />
             </q-card-section>
         </q-card>
     </div>
@@ -26,7 +26,7 @@
     <h3 id="servicios">NUESTROS SERVICIOS</h3>
     <div class="q-pa-md row items-start q-gutter-md" style="display: flex; justify-content: center;">
         <q-card class="my-card2">
-            <q-img src="https://cdn.quasar.dev/img/parallax2.jpg">
+            <q-img src="https://hips.hearstapps.com/hmg-prod/images/viceroy-ubud-1563138658.jpg">
                 <div class="absolute-bottom text-h6">
                     Piscinas Infinita
                 </div>
@@ -37,7 +37,7 @@
             </q-card-section>
         </q-card>
         <q-card class="my-card2">
-            <q-img src="https://cdn.quasar.dev/img/parallax2.jpg">
+            <q-img src="https://revistadiners.com.co/wp-content/uploads/2023/08/portada_ejecafeterogorumet_1200x800_2023-800x500.jpg">
                 <div class="absolute-bottom text-h6">
                     Restaurantes Gourmet
                 </div>
@@ -48,7 +48,7 @@
             </q-card-section>
         </q-card>
         <q-card class="my-card2">
-            <q-img src="https://cdn.quasar.dev/img/parallax2.jpg">
+            <q-img src="https://www.moonpalacecancun.com/lbc_Spa_Massage_8_spa_carouselcards_1000x1000px_2d18d3bfb5.jpg">
                 <div class="absolute-bottom text-h6">
                     Spa de Clase Mundial
                 </div>
@@ -59,7 +59,7 @@
             </q-card-section>
         </q-card>
         <q-card class="my-card2">
-            <q-img src="https://cdn.quasar.dev/img/parallax2.jpg">
+            <q-img src="https://reportelobby.info/wp-content/uploads/2023/01/TURISMO_DE_AVENTURA_REPORTE_LOBBY_02.jpg">
                 <div class="absolute-bottom text-h6">
                     Actividades de Aventura
                 </div>
@@ -71,7 +71,7 @@
             </q-card-section>
         </q-card>
         <q-card class="my-card2">
-            <q-img src="https://cdn.quasar.dev/img/parallax2.jpg">
+            <q-img src="https://img.freepik.com/fotos-premium/gimnasio-que-muestra-espacio-entrenamiento-bien-equipado_878092-9946.jpg">
                 <div class="absolute-bottom text-h6">
                     Gimnasio Equipado
                 </div>
