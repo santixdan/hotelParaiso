@@ -19,9 +19,7 @@
                 <q-card-section>
                     <h4>Habitación estandar</h4>
                     <h6>Descripción</h6>
-                    <p>Nuestras habitaciones estándar son un refugio acogedor, perfecto para descansar después de un día
-                        lleno de aventuras. Con una decoración elegante y moderna, cada habitación ofrece vistas a
-                        nuestros hermosos jardines o a la piscina.</p>
+                    <p>Nuestras habitaciones estándar son acogedoras y perfectas para descansar tras un día de aventuras. Con decoración moderna, ofrecen vistas a los jardines o a la piscina.</p>
                     <h6>Características y Comodidades</h6>
                     <ul>
                         <li>Cama King o Doble</li>

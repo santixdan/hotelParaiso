@@ -1,24 +1,24 @@
 <template>
   <div class="q-pa-md">
     <h1>Contacto</h1>
-    <p>
+    <h5>
       Para cualquier consulta o solicitud, puedes contactarnos a través de los siguientes medios:
-    </p>
+    </h5>
     <div>
       <h3>Dirección</h3>
-      <p>Av. Principal 123, Ciudad Paraíso, País</p>
+      <h5>Av. Principal 123, Ciudad Paraíso, País</h5>
 
       <h3>Teléfonos</h3>
-      <p>+123 456 7890</p>
-      <p>+098 765 4321</p>
+      <h5>+123 456 7890</h5>
+      <h5>+098 765 4321</h5>
 
       <h3>Correo Electrónico</h3>
-      <p>contacto@hotelparaiso.com</p>
+      <h5>contacto@hotelparaiso.com</h5>
 
       <h3>Horarios de Atención</h3>
-      <p>Lunes a Viernes: 9:00 AM - 6:00 PM</p>
-      <p>Sábados: 10:00 AM - 4:00 PM</p>
-      <p>Domingos: Cerrado</p>
+      <h5>Lunes a Viernes: 9:00 AM - 6:00 PM</h5>
+      <h5>Sábados: 10:00 AM - 4:00 PM</h5>
+      <h5>Domingos: Cerrado</h5>
     </div>
 
     <h2>Ubicación</h2>
@@ -46,7 +46,9 @@ onMounted(() => {
 </script>
 
 <style>
-
+h1, h3{
+  text-decoration: underline;
+}
 
 #map {
   width: 100%;
