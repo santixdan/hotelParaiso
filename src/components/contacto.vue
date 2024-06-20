@@ -32,17 +32,17 @@ import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 
 onMounted(() => {
-  const map = L.map('map').setView([51.505, -0.09], 13)
+  const map = L.map('map').setView([6.562097, -73.140215], 13);
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     lang: 'es'
-  }).addTo(map)
+  }).addTo(map);
 
-  L.marker([51.505, -0.09]).addTo(map)
+  L.marker([6.562097, -73.140215]).addTo(map)
     .bindPopup('Hotel Paraíso')
-    .openPopup()
-})
+    .openPopup();
+});
 </script>
 
 <style>
