@@ -46,7 +46,7 @@ onMounted(() => {
 </script>
 
 <style>
-h1, h3{
+h3{
   text-decoration: underline;
 }
 
