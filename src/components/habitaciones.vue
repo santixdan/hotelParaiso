@@ -2,12 +2,13 @@
     <div class="q-pa-md">
         <q-parallax :height="500" :speed="1">
             <template v-slot:media>
-                <img src="https://png.pngtree.com/background/20231030/original/pngtree-contemporary-3d-rendering-of-a-stylish-bedroom-in-a-modern-condominium-picture-image_5799708.jpg">
+                <img
+                    src="https://png.pngtree.com/background/20231030/original/pngtree-contemporary-3d-rendering-of-a-stylish-bedroom-in-a-modern-condominium-picture-image_5799708.jpg">
             </template>
 
             <h1 id="text-white">NUESTRAS HABITACIONES</h1>
             <p id="text-white2">Descubre las diversas opciones de alojamiento que el Hotel Paraíso tiene para
-        ofrecer.<br>Cada una diseñada para proporcionar el máximo confort y lujo durante tu estancia.</p>
+                ofrecer.<br>Cada una diseñada para proporcionar el máximo confort y lujo durante tu estancia.</p>
         </q-parallax>
     </div>
     <h3 id="habitaciones"></h3>
@@ -15,36 +16,41 @@
     <hr>
     <div class="q-pa-md row items-start q-gutter-md" id="cards">
         <q-card class="my-card" flat bordered>
-            <q-card-section horizontal>
+            <q-card-section horizontal id="subCards">
+                <q-img id="imgHabitacion" class="col-5"
+                    src="https://www.hotelvaldorba.com/wp-content/uploads/2014/11/Habitacion-de-Hotel-rural-Valdorba-en-Navarra-1920x1080.jpg" />
                 <q-card-section>
                     <h4>Habitación estandar</h4>
                     <h6>Descripción</h6>
-                    <p>Nuestras habitaciones estándar son acogedoras y perfectas para descansar tras un día de aventuras. Con decoración moderna, ofrecen vistas a los jardines o a la piscina.</p>
+                    <p>Habitaciones estándar acogedoras y modernas, ideales para descansar después de un día de
+                        aventuras,
+                        con vistas a los jardines o a la piscina.</p>
                     <h6>Características y Comodidades</h6>
                     <ul>
                         <li>Cama King o Doble</li>
                         <li>Wi-Fi gratuito</li>
                         <li>TV de pantalla plana</li>
                         <li>Minibar</li>
-                        <li>Caja fuerte</li>
-                        <li>Baño completo con artículos de aseo de lujo</li>
                     </ul>
-                    <h5>Precio: Desde $150 por noche</h5>
-                    <q-btn label="Reservar" color="black" id="btnModal" @click="icon = true" />
+                    <br>
+                    <div id="precioBtn">
+                        <h5>Precio: $150/noche</h5>
+                        <q-btn label="Reservar" color="black" id="btnModal" @click="icon = true" />
+                    </div>
+
                 </q-card-section>
 
-                <q-img class="col-5" src="https://www.hotelvaldorba.com/wp-content/uploads/2014/11/Habitacion-de-Hotel-rural-Valdorba-en-Navarra-1920x1080.jpg" />
+
             </q-card-section>
         </q-card>
         <q-card class="my-card" flat bordered>
-            <q-card-section horizontal>
-                <q-img class="col-5" src="https://hotelhaciendadecortes.com.mx/theme/img/slide/jr/lightbox/1.jpg" />
+            <q-card-section horizontal id="subCards">
+
                 <q-card-section>
                     <h4>Suite Junior</h4>
                     <h6>Descripción</h6>
-                    <p>Las Suites Junior ofrecen un espacio adicional para relajarse, con una zona de estar separada y
-                        vistas panorámicas al océano o a las montañas. Ideales para parejas o viajeros que buscan un
-                        poco más de lujo y comodidad.</p>
+                    <p>Las Suites Junior ofrecen más espacio, con zona de estar y vistas panorámicas al océano o a las
+                        montañas. Perfectas para parejas o viajeros que buscan lujo y comodidad.</p>
                     <h6>Características y Comodidades</h6>
                     <ul>
                         <li>Cama King</li>
@@ -52,23 +58,29 @@
                         <li>Wi-Fi gratuito</li>
                         <li>TV de pantalla plana</li>
                         <li>Minibar</li>
-                        <li>Caja fuerte</li>
-                        <li>Baño completo con artículos de aseo de lujo</li>
                         <li>Balcón privado</li>
                     </ul>
-                    <h5>Precio: Desde $250 por noche</h5>
-                    <q-btn label="Reservar" color="black" id="btnModal" @click="icon = true" />
+                    <br>
+                    <div id="precioBtn">
+                        <h5>Precio: $250/noche</h5>
+                        <q-btn label="Reservar" color="black" id="btnModal" @click="icon = true" />
+                    </div>
+
                 </q-card-section>
+                <q-img id="imgHabitacion" class="col-5"
+                    src="https://hotelhaciendadecortes.com.mx/theme/img/slide/jr/lightbox/1.jpg" />
             </q-card-section>
         </q-card>
         <q-card class="my-card" flat bordered>
-            <q-card-section horizontal>
+            <q-card-section horizontal id="subCards">
+                <q-img id="imgHabitacion" class="col-5" src="https://images.mirai.com/HOST/500255/room-24672.jpg" />
                 <q-card-section>
                     <h4>Suite de Lujo</h4>
                     <h6>Descripción</h6>
                     <p>Nuestras Suites de Lujo son el epítome del confort y la elegancia, con amplios espacios de estar
-                        y vistas impresionantes al océano. Perfectas para huéspedes que buscan una experiencia de
-                        alojamiento superior.</p>
+                        y
+                        vistas impresionantes al océano. Ideales para quienes buscan una experiencia de alojamiento
+                        superior.</p>
                     <h6>Características y Comodidades</h6>
                     <ul>
                         <li>Cama King</li>
@@ -76,26 +88,27 @@
                         <li>Wi-Fi gratuito</li>
                         <li>TV de pantalla plana</li>
                         <li>Minibar</li>
-                        <li>Caja fuerte</li>
-                        <li>Baño de lujo con bañera y artículos de aseo premium</li>
                         <li>Balcón privado con tumbonas</li>
                     </ul>
-                    <h5>Precio: Desde $400 por noche</h5>
-                    <q-btn label="Reservar" color="black" id="btnModal" @click="icon = true" />
+                    <br>
+                    <div id="precioBtn">
+                        <h5>Precio: $400/noche</h5>
+                        <q-btn label="Reservar" color="black" id="btnModal" @click="icon = true" />
+                    </div>
+
                 </q-card-section>
 
-                <q-img class="col-5" src="https://images.mirai.com/HOST/500255/room-24672.jpg" />
+
             </q-card-section>
         </q-card>
         <q-card class="my-card" flat bordered>
-            <q-card-section horizontal>
-                <q-img class="col-5" src="https://st3.idealista.com/news/archivos/styles/fullwidth_xl/public/2018-08/suite-princesse-grace-3.jpg?VersionId=4GORgqRZX0hbzXsr3j7zn8Dn580DRqLn&itok=hoDo8M8x" />
+            <q-card-section horizontal id="subCards">
+
                 <q-card-section>
                     <h4>Suite<br>Presidencial</h4>
                     <h6>Descripción</h6>
-                    <p>Las Suites Presidenciales ofrecen la máxima experiencia de lujo y exclusividad. Con espacios
-                        generosos, vistas panorámicas incomparables y servicios personalizados, estas suites son ideales
-                        para huéspedes que buscan lo mejor de lo mejor.</p>
+                    <p>Las Suites Presidenciales ofrecen lujo y exclusividad máximos. Con amplios espacios, vistas
+                        panorámicas y servicios personalizados, son ideales para quienes buscan lo mejor.</p>
                     <h6>Características y Comodidades</h6>
                     <ul>
                         <li>Cama King</li>
@@ -104,14 +117,17 @@
                         <li>Wi-Fi gratuito</li>
                         <li>TV de pantalla plana</li>
                         <li>Minibar y vinoteca</li>
-                        <li>Caja fuerte</li>
-                        <li>Baño de lujo con bañera y artículos de aseo premium</li>
                         <li>Terraza privada con jacuzzi y tumbonas</li>
-                        <li>Servicio de mayordomo</li>
                     </ul>
-                    <h5>Precio: Desde $800 por noche</h5>
-                    <q-btn label="Reservar" color="black" id="btnModal" @click="icon = true" />
+                    <br>
+                    <div id="precioBtn">
+                        <h5>Precio: $800/noche</h5>
+                        <q-btn label="Reservar" color="black" id="btnModal" @click="icon = true" />
+                    </div>
+
                 </q-card-section>
+                <q-img id="imgHabitacion" class="col-5"
+                    src="https://st3.idealista.com/news/archivos/styles/fullwidth_xl/public/2018-08/suite-princesse-grace-3.jpg?VersionId=4GORgqRZX0hbzXsr3j7zn8Dn580DRqLn&itok=hoDo8M8x" />
             </q-card-section>
         </q-card>
     </div>
@@ -136,7 +152,8 @@
                             ]" />
                         <q-select filled v-model="model" :options="options" hint="Habitación" label="Habitación *"
                             :rules="[val => val && val.length > 0 || 'Por favor, escoja una habitación']" />
-                        <q-input filled v-model="date1" label="Fecha de entrada *" hint="Fecha de entrada" :rules="['date', val => val !== null && val !== '' || 'Por favor, dígite la fecha de entrada']">
+                        <q-input filled v-model="date1" label="Fecha de entrada *" hint="Fecha de entrada"
+                            :rules="['date', val => val !== null && val !== '' || 'Por favor, dígite la fecha de entrada']">
                             <template v-slot:append>
                                 <q-icon name="event" class="cursor-pointer">
                                     <q-popup-proxy cover transition-show="scale" transition-hide="scale">
@@ -149,7 +166,8 @@
                                 </q-icon>
                             </template>
                         </q-input>
-                        <q-input filled v-model="date2" label="Fecha de salida *" hint="Fecha de salida" :rules="['date', val => val !== null && val !== '' || 'Por favor, dígite la fecha de salida']">
+                        <q-input filled v-model="date2" label="Fecha de salida *" hint="Fecha de salida"
+                            :rules="['date', val => val !== null && val !== '' || 'Por favor, dígite la fecha de salida']">
                             <template v-slot:append>
                                 <q-icon name="event" class="cursor-pointer">
                                     <q-popup-proxy cover transition-show="scale" transition-hide="scale">
@@ -218,10 +236,14 @@ function onReset() {
 }
 </script>
 <style>
-
 .my-card {
-    width: 100%;
+    width: 50% !important;
     /* max-width: 350px; */
+}
+
+#precioBtn {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
 
 #habitaciones {
@@ -229,45 +251,75 @@ function onReset() {
     margin: 1%;
 }
 
+
 #txtHabitaciones {
     text-align: center;
     font-size: 130%;
 }
 
 #btnModal {
+    width: 70%;
     font-size: 100%;
     color: greenyellow !important;
 }
-#text-white{
+
+#text-white {
     color: white !important;
-    text-shadow: 
-    -2px -1px 0 #000000,  
-    1px -1px 0 #000000,
-    -1px 1px 0 #000000,
-    1px 1px 0 #000000;
+    text-shadow:
+        -2px -1px 0 #000000,
+        1px -1px 0 #000000,
+        -1px 1px 0 #000000,
+        1px 1px 0 #000000;
 }
-#text-white2{
+
+#text-white2 {
     color: white !important;
     font-weight: bold;
     font-size: 130%;
-    text-shadow: 
-    -2px -1px 0 #000000,  
-    1px -1px 0 #000000,
-    -1px 1px 0 #000000,
-    1px 1px 0 #000000;
+    text-shadow:
+        -2px -1px 0 #000000,
+        1px -1px 0 #000000,
+        -1px 1px 0 #000000,
+        1px 1px 0 #000000;
 }
-#cards{
-    display: flex;
-    justify-content: center;
+
+#cards {
+    /* width: 90%; */
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    justify-items: center;
+    /* align-items: center; */
 }
-@media screen and (max-width:500px) and (min-width:300px){
-    .text-white{
+
+@media screen and (max-width:600px) and (min-width:300px) {
+    .my-card{
+        width: auto !important;
+    }
+    .text-white {
         text-align: left;
         font-size: 210%;
     }
-    .text-white2{
+
+    .text-white2 {
         font-size: 110%;
         text-align: left;
+    }
+
+    #subCards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #imgHabitacion {
+        width: 100%;
+    }
+}
+@media screen and (max-width:1460px) and (min-width:601px){
+    .my-card{
+        width: 90% !important;
+    }
+    #btnModal{
+        width: 90%;
     }
 }
 </style>
