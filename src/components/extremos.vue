@@ -7,8 +7,8 @@
                         src="https://blog.jeep.com.ec/hubfs/7%20deportes%20extremos%20para%20realizar%20outdoor%20despu%C3%A9s%20de%20la%20cuarentena-4.png">
                 </template>
 
-                <h1 class="text-white">DEPORTES EXTREMOS</h1>
-                <p class="text-white2">
+                <h1 id="text-white">DEPORTES EXTREMOS</h1>
+                <p id="text-white2">
                     En Hotel Paraíso, ofrecemos una variedad de deportes extremos para aquellos que buscan emociones y
                     aventura. <br>
                     Explora nuestras actividades y prepárate para una experiencia inolvidable.

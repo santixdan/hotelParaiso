@@ -5,8 +5,8 @@
                 <img src="https://png.pngtree.com/background/20231030/original/pngtree-contemporary-3d-rendering-of-a-stylish-bedroom-in-a-modern-condominium-picture-image_5799708.jpg">
             </template>
 
-            <h1 class="text-white">NUESTRAS HABITACIONES</h1>
-            <p class="text-white2">Descubre las diversas opciones de alojamiento que el Hotel Paraíso tiene para
+            <h1 id="text-white">NUESTRAS HABITACIONES</h1>
+            <p id="text-white2">Descubre las diversas opciones de alojamiento que el Hotel Paraíso tiene para
         ofrecer.<br>Cada una diseñada para proporcionar el máximo confort y lujo durante tu estancia.</p>
         </q-parallax>
     </div>
@@ -238,7 +238,7 @@ function onReset() {
     font-size: 100%;
     color: greenyellow !important;
 }
-.text-white{
+#text-white{
     color: white !important;
     text-shadow: 
     -2px -1px 0 #000000,  
@@ -246,7 +246,7 @@ function onReset() {
     -1px 1px 0 #000000,
     1px 1px 0 #000000;
 }
-.text-white2{
+#text-white2{
     color: white !important;
     font-weight: bold;
     font-size: 130%;
