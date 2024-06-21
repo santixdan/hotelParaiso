@@ -134,5 +134,6 @@ let fullscreen = ref(false)
 
 #servicios {
     margin: 1%;
+    text-decoration: underline;
 }
 </style>

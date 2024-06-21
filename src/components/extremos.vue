@@ -143,7 +143,7 @@ import { ref } from 'vue'
 .deportes {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    gap: 20px;
     justify-items: center;
     align-items: center;
 }

@@ -44,7 +44,7 @@
             </q-card-section>
         </q-card>
         <q-card class="my-card" flat bordered>
-            <q-card-section horizontal id="subCards">
+            <q-card-section horizontal id="subCards2">
 
                 <q-card-section>
                     <h4>Suite Junior</h4>
@@ -102,7 +102,7 @@
             </q-card-section>
         </q-card>
         <q-card class="my-card" flat bordered>
-            <q-card-section horizontal id="subCards">
+            <q-card-section horizontal id="subCards2">
 
                 <q-card-section>
                     <h4>Suite<br>Presidencial</h4>
@@ -127,7 +127,7 @@
 
                 </q-card-section>
                 <q-img id="imgHabitacion" class="col-5"
-                    src="https://st3.idealista.com/news/archivos/styles/fullwidth_xl/public/2018-08/suite-princesse-grace-3.jpg?VersionId=4GORgqRZX0hbzXsr3j7zn8Dn580DRqLn&itok=hoDo8M8x" />
+                    src="https://www.casadecampo.com.do/wp-content/uploads/2023/02/Premier_Presidential_suite_living_area_02.jpg" />
             </q-card-section>
         </q-card>
     </div>
@@ -292,17 +292,19 @@ function onReset() {
 }
 
 @media screen and (max-width:600px) and (min-width:300px) {
-    .my-card{
+    .my-card {
         width: auto !important;
     }
-    .text-white {
+
+    #text-white {
         text-align: left;
         font-size: 210%;
     }
 
-    .text-white2 {
+    #text-white2 {
         font-size: 110%;
         text-align: left;
+        text-align: center;
     }
 
     #subCards {
@@ -310,15 +312,27 @@ function onReset() {
         flex-direction: column;
     }
 
+    #subCards2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
     #imgHabitacion {
         width: 100%;
     }
-}
-@media screen and (max-width:1460px) and (min-width:601px){
-    .my-card{
-        width: 90% !important;
+
+    #btnModal {
+        width: 90%;
+        font-size: 100%;
     }
-    #btnModal{
+}
+
+@media screen and (max-width:1460px) and (min-width:601px) {
+    .my-card {
+        width: 75% !important;
+    }
+
+    #btnModal {
         width: 90%;
     }
 }
