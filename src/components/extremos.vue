@@ -145,6 +145,7 @@ import { ref } from 'vue'
     gap: 20px;
     justify-items: center;
     align-items: center;
+    margin-bottom: 5px;
 }
 
 .introduccion {
